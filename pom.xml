@@ -6,6 +6,12 @@
   
   <packaging>war</packaging>
   
+  <properties>
+  
+  
+  
+  </properties>
+  
   <dependencies>
 	<dependency>
 		<groupId>org.springframework</groupId>
