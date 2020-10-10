@@ -11,4 +11,9 @@ public class WebClass {
 		return "something";
 	}
 	
+	@GetMapping("/getCurrentDate")
+	public String getCurrentDate() {
+		return (java.time.LocalDate.now()).toString();
+	}
+	
 }
