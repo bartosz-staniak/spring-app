@@ -13,7 +13,8 @@ public class WebClass {
 	
 	@GetMapping("/getCurrentDate")
 	public String getCurrentDate() {
-		return (java.time.LocalDate.now()).toString();
+		String date = ("Today is " + (java.time.LocalDate.now()).toString() + ".");
+		return date;
 	}
 	
 }
