@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class WebClass {
 
-	@GetMapping
+	@GetMapping("/printSoemthing")
 	public String printSomething() {
 		return "something";
 	}
